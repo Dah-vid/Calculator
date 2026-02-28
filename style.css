@@ -18,3 +18,15 @@ body {
     grid-template-rows: repeat(5,80px);
     gap: 10px
 }
+
+button {
+    background-color: #222;
+    color: #fff;
+    border: 2px solid #0f0;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:  #333;
+}
