@@ -30,3 +30,12 @@ button {
 button:hover {
     background-color:  #333;
 }
+
+.calculator {
+    max-width: 440px;
+    margin: 50px auto;
+}
+
+.zero {
+    grid-column: 2 / 4;
+}
