@@ -39,3 +39,11 @@ button:hover {
 .zero {
     grid-column: 2 / 4;
 }
+
+.display {
+    text-align: right;  
+}
+
+button:active {
+    outline: none;
+}
