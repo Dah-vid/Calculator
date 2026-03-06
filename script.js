@@ -5,7 +5,7 @@ let lastClickTime = 0;
 let firstNumber = null;
 let secondNumber = null;
 let operator = null;
-let shouldReplaceDisplay = false;
+let shouldReplaceDisplay = true;
 
 function add(firstNumber, secondNumber){
     return firstNumber + secondNumber
@@ -94,11 +94,11 @@ for (let button of buttons) {
 
             
         } else if (event.target.textContent == "Clear") {
-            display.textContent = "";
+            display.textContent = "0";
             firstNumber = null;
             secondNumber = null;
             operator = null;
-            shouldReplaceDisplay = false;
+            shouldReplaceDisplay = true;
             }
 
 
